@@ -81,7 +81,7 @@ The **long-term goal** of this repository is to build an end-to-end protein epit
 
 ✔ Data Visualization 
 
-⬜ Machine Learning (Coming Soon)
+⏳ Machine Learning (Coming Soon)
 
 ---
 
