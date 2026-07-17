@@ -29,7 +29,7 @@
 - [Dataset](#-dataset)
 - [Objectives](#-objectives)
 - [Repository Structure](#-repository-structure)
-- [Installation](#installation)
+- [Installation](#-installation)
 - [Requirements](#-requirements)
 - [Project Workflow](#-project-workflow)
 - [Data Cleaning & Validation](#-data-cleaning--validation)
@@ -40,7 +40,7 @@
 - [Future Work](#-future-work)
 - [References](#-references)
 - [License](#-license)
-- [Author & Contact](#author--contact)
+- [Author & Contact](#-author--contact)
 
 ---
 
@@ -134,7 +134,7 @@ epitope-analysis-and-prediction/
 └── LICENSE
 ```
 
-# Installation
+# ⚙️ Installation
 
 Clone the repository:
 
