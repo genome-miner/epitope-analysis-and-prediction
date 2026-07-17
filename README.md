@@ -2,7 +2,7 @@
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:1A2980,100:26D0CE&height=15&section=header&width=2000"/>
 </p>
 
-# 🧬 Epitope Analysis and Prediction
+# 🧬 Epitope Data Analysis and Prediction
 
 ### Exploratory Data Analysis (EDA) and Bioinformatics Characterization of Protein Epitope Datasets using Python
 
@@ -25,26 +25,29 @@
 
 # 📑 Table of Contents
 
-- [Project Overview](#-project-overview)
-- [Dataset](#-dataset)
-- [Objectives](#-objectives)
-- [Repository Structure](#-repository-structure)
-- [Installation](#-installation)
-- [Requirements](#-requirements)
-- [Project Workflow](#-project-workflow)
-- [Data Cleaning & Validation](#-data-cleaning--validation)
-- [Feature Engineering](#-feature-engineering)
-- [Statistical Analysis](#-statistical-analysis)
-- [Data Visualization](#-data-visualization)
-- [Key Findings](#-key-findings)
-- [Future Work](#-future-work)
-- [References](#-references)
-- [License](#-license)
-- [Author & Contact](#-author--contact)
+## 📑 Table of Contents
+
+- <a href="#project-overview">Project Overview</a>
+- <a href="#current-project-status">Current Project Status</a>
+- <a href="#dataset">Dataset</a>
+- <a href="#objectives">Objectives</a>
+- <a href="#repository-structure">Repository Structure</a>
+- <a href="#installation">Installation</a>
+- <a href="#requirements">Requirements</a>
+- <a href="#project-workflow">Project Workflow</a>
+- <a href="#data-cleaning--validation">Data Cleaning & Validation</a>
+- <a href="#feature-engineering">Feature Engineering</a>
+- <a href="#statistical-analysis">Statistical Analysis</a>
+- <a href="#data-visualization">Data Visualization</a>
+- <a href="#key-findings">Key Findings</a>
+- <a href="#future-work">Future Work</a>
+- <a href="#references">References</a>
+- <a href="#license">License</a>
+- <a href="#author--contact">Author & Contact</a>
 
 ---
 
-# 📖 Project Overview
+## <a id="project-overview"></a>📖 Project Overview
 
 Protein epitopes are specific regions of antigens that are recognized by antibodies and play an essential role in immune responses, vaccine development, and immunodiagnostics.
 
@@ -66,7 +69,23 @@ The **long-term goal** of this repository is to build an end-to-end protein epit
 
 ---
 
-# 📂 Dataset
+## <a id="current-project-status"></a>🚀 Current Project Status
+
+✔ Data Exploration 
+
+✔ Data Cleaning 
+
+✔ Feature Engineering 
+
+✔ Statistical Analysis 
+
+✔ Data Visualization 
+
+⬜ Machine Learning (Coming Soon)
+
+---
+
+## <a id="dataset"></a>📂 Dataset
 
 This repository currently analyzes multiple experimentally validated protein epitope datasets.
 
@@ -80,7 +99,7 @@ The datasets contain peptide sequences that are analyzed to investigate biologic
 
 ---
 
-# 🎯 Objectives
+## <a id="objectives"></a>🎯 Objectives
 
 The primary objectives of this project are:
 
@@ -95,7 +114,7 @@ The primary objectives of this project are:
 
 ---
 
-# 📁 Repository Structure
+## <a id="repository-structure"></a>📁 Repository Structure
 
 ```bash
 epitope-analysis-and-prediction/
@@ -106,7 +125,7 @@ epitope-analysis-and-prediction/
 │   ├── B_Cells_cleaned.csv
 │   ├── COVID_cleaned.csv
 │   ├── Sars_cleaned.csv
-│   └── merged_dataset.csv
+│   └── merged_file.csv
 │
 ├── Figures/
 │   ├── Histogram_Peptide_Length.png
@@ -119,12 +138,12 @@ epitope-analysis-and-prediction/
 │   ├── Mean_Hydrophobicity.png
 │   ├── Mean_Stability.png
 │   ├── Mean_Parker.png
+│   ├── Amino_Acid_Composition.png
 │   ├── Scatter_Hydrophobicity.png
 │   ├── Scatter_Stability.png
 │   ├── Scatter_Parker.png
 │   ├── Scatter_Aromaticity.png
-│   ├── Scatter_Isoelectric_Point.png
-│   └── Amino_Acid_Composition.png
+│   └── Scatter_Isoelectric_Point.png   
 │
 ├── Python/
 │   └── Epitope_Analysis.py
@@ -134,7 +153,7 @@ epitope-analysis-and-prediction/
 └── LICENSE
 ```
 
-# ⚙️ Installation
+## <a id="installation"></a>⚙️ Installation
 
 Clone the repository:
 
@@ -152,7 +171,7 @@ pip install -r requirements.txt
 
 ---
 
-# 📦 Requirements
+## <a id="requirements"></a>📦 Requirements
 
 The project was developed using Python and the following major libraries:
 
@@ -164,7 +183,7 @@ The project was developed using Python and the following major libraries:
 
 ---
 
-# 🔄 Project Workflow
+## <a id="project-workflow"></a>🔄 Project Workflow
 
 The complete analysis pipeline is illustrated below.
 
@@ -198,24 +217,26 @@ The complete analysis pipeline is illustrated below.
 
 ---
 
-# 🧹 Data Cleaning & Validation
+## <a id="data-cleaning--validation"></a>🧹 Data Cleaning & Validation
 
 High-quality biological data are essential for reliable downstream analyses. Each dataset was systematically examined and cleaned before statistical analysis.
 
 The preprocessing workflow included:
 
-- Validation of peptide coordinates
-- Verification of the longest peptide record
-- Biological validation of peptide length calculations
-- Inspection of missing values
-- Detection and removal of duplicate rows
-- Standardization of peptide and protein sequences
+<ul>
+  <li>Inspection of missing values</li>
+  <li>Detection and removal of duplicate rows</li>
+  <li>Standardization of protein and peptide sequences (removed extra spaces and converted sequences to uppercase)</li>
+  <li>Identification of unique proteins and peptide sequences</li>
+  <li>Validation of peptide coordinates (checked for invalid start/end positions and verified the longest peptide record)</li>
+  <li>Dataset quality assessment (checked dataset structure, descriptive statistics, and target class distribution)</li>
+</ul>
 
 These steps ensured that all subsequent analyses were performed on clean and biologically valid peptide data.
 
 ---
 
-# 🧬 Feature Engineering
+## <a id="feature-engineering"></a>🧬 Feature Engineering
 
 To facilitate biological interpretation and future predictive modeling, several additional features were derived from the original peptide sequences.
 
@@ -226,7 +247,7 @@ Examples include:
 
 ---
 
-# 📊 Statistical Analysis
+## <a id="statistical-analysis"></a>📊 Statistical Analysis
 
 Statistical analyses were performed to investigate differences and relationships among the protein epitope datasets.
 
@@ -244,7 +265,7 @@ These analyses provide quantitative insights into peptide characteristics and es
 
 ---
 
-# 📈 Data Visualization
+## <a id="data-visualization"></a>📈 Data Visualization
 
 A variety of publication-quality visualizations were generated to better understand the biological and physicochemical characteristics of the datasets.
 
@@ -288,7 +309,7 @@ The project includes additional visualizations such as:
 
 ---
 
-# 🔬 Key Findings
+## <a id="key-findings"></a>🔬 Key Findings
 
 The exploratory analysis revealed several notable biological patterns:
 
@@ -296,13 +317,13 @@ The exploratory analysis revealed several notable biological patterns:
 - Peptide length distributions differ across the analyzed datasets.
 - Hydrophobicity profiles indicate differences in physicochemical characteristics among datasets.
 - Feature engineering introduced biologically meaningful features, including peptide length and dataset identifiers, to support downstream predictive modeling.
-- Statistical analyses revealed variability in peptide properties that may influence future machine learning performance.
+- Statistical analyses revealed substantial variability in peptide and physicochemical properties across the datasets.
 
 These findings provide a strong analytical foundation for developing computational epitope prediction models.
 
 ---
 
-# 🚀 Future Work
+## <a id="future-work"></a>🚀 Future Work
 
 This repository represents the first stage of a larger bioinformatics project.
 
@@ -316,19 +337,19 @@ Planned future developments include:
 
 ---
 
-# 📄 License
+## <a id="references"></a>📚 References
+
+The datasets were obtained from the [Keggle](https://www.kaggle.com/) Epitope Prediction dataset.
+
+---
+
+## <a id="license"></a>📄 License
 
 This project is licensed under the [MIT License](https://github.com/genome-miner/epitope-analysis-and-prediction/blob/main/LICENSE).
 
 ---
 
-# 📚 References
-
-The dataset is taken from [Keggle](https://www.kaggle.com/).
-
----
-
-# 👨‍💻 Author & Contact
+## <a id="author--contact"></a>👨‍💻 Author & Contact
 
 **Sana Aziz Sial**  
 Biotechnologist and Bioinformatician
