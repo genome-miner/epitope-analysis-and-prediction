@@ -312,11 +312,15 @@ The project includes additional visualizations such as:
 
 The exploratory analysis revealed several notable biological patterns:
 
-- Most experimentally validated epitopes are relatively short peptides.
-- Peptide length distributions differ across the analyzed datasets.
-- Hydrophobicity profiles indicate differences in physicochemical characteristics among datasets.
-- Feature engineering introduced biologically meaningful features, including peptide length and dataset identifiers, to support downstream predictive modeling.
-- Statistical analyses revealed substantial variability in peptide and physicochemical properties across the datasets.
+<ul>
+  <li>Most epitopes are short peptides (primarily 5–20 amino acids)</li>
+  <li>Most epitopes are short peptides (primarily 5–20 amino acids)</li>
+  <li>Biochemical properties exhibit substantial variability across peptides</li>
+  <li>B-cell peptides are generally the most hydrophilic according to both hydrophobicity and Parker index analyses</li>
+  <li>SARS peptides have the greatest average peptide length due to the presence of longer sequences</li>
+  <li>Peptide length shows little or no clear relationship with hydrophobicity, stability, aromaticity, Parker hydrophilicity, or isoelectric point</li>
+  <li>The physicochemical properties of epitopes appear to depend more on amino acid composition than on peptide length alone</li>
+</ul>
 
 These findings provide a strong analytical foundation for developing computational epitope prediction models.
 
@@ -338,7 +342,7 @@ Planned future developments include:
 
 ## <a id="references"></a>📚 References
 
-The datasets were obtained from the [Keggle](https://www.kaggle.com/) Epitope Prediction dataset.
+The datasets were obtained from the [Keggle COVID-19/SARS B-cell Epitope Prediction](https://www.kaggle.com/datasets/futurecorporation/epitope-prediction).
 
 ---
 
