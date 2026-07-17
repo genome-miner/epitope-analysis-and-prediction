@@ -25,8 +25,6 @@
 
 # 📑 Table of Contents
 
-## 📑 Table of Contents
-
 - <a href="#project-overview">Project Overview</a>
 - <a href="#current-project-status">Current Project Status</a>
 - <a href="#dataset">Dataset</a>
