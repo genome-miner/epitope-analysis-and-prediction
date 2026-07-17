@@ -30,6 +30,7 @@
 - [Objectives](#-objectives)
 - [Repository Structure](#-repository-structure)
 - [Installation](#-installation)
+- [Requirements](#-requirements)
 - [Project Workflow](#-project-workflow)
 - [Data Cleaning & Validation](#-data-cleaning--validation)
 - [Feature Engineering](#-feature-engineering)
@@ -37,8 +38,9 @@
 - [Data Visualization](#-data-visualization)
 - [Key Findings](#-key-findings)
 - [Future Work](#-future-work)
+- [Reference](#-reference)
 - [License](#-license)
-- [Author](#-author)
+- [Author & Contact](#-author--contact)
 
 ---
 
@@ -316,40 +318,25 @@ Planned future developments include:
 
 # 📄 License
 
-This project is licensed under the **MIT License**[].
-
----
-
-# 🤝 Contributing
-
-Contributions, suggestions, and constructive feedback are welcome.
-
-If you would like to improve the project:
-
-1. Fork the repository.
-2. Create a new feature branch.
-3. Commit your changes.
-4. Submit a pull request.
+This project is licensed under the [MIT License](https://github.com/genome-miner/epitope-analysis-and-prediction/blob/main/LICENSE).
 
 ---
 
 # 📚 References
 
-This project is based on experimentally validated protein epitope datasets and standard bioinformatics analysis techniques.
-
-Relevant literature and data sources will be added as the project evolves.
+The dataset is taken from [Keggle](https://www.kaggle.com/).
 
 ---
 
-# 👨‍💻 Author
+# 👨‍💻 Author & Contact
 
-**Your Name**
+**Sana Aziz Sial**  
+Biotechnologist and Bioinformatician
+- 🎓 [University of Veterinary and Animal Sciences](https://www.uvas.edu.pk/)
+- 📧 [Email](sanaazizsial@gmail.com)
+- 🐙 [GitHub](https://github.com/genome-miner)
+- 🔗 [LinkedIn](in/sana-aziz-sial-73b189265)
 
-Bioinformatics • Data Science • Python
-
-GitHub: https://github.com/your-username
-
-LinkedIn: https://linkedin.com/in/your-profile
 
 ---
 
@@ -357,12 +344,9 @@ LinkedIn: https://linkedin.com/in/your-profile
 
 ## ⭐ Support the Project
 
-If you found this repository useful, consider giving it a **star** on GitHub.
+_If you found this repository useful, consider giving it a **star** on GitHub._
 
-It helps others discover the project and supports future development.
-
-Thank you for visiting!
-
+_Thank you for visiting!_
 </div>
 
 <p align="center">
