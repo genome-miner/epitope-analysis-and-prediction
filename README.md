@@ -175,6 +175,7 @@ The project was developed using Python and the following major libraries:
 
 | Library | Purpose |
 |----------|---------|
+| KaggleHub | Dataset downloading from Kaggle |
 | Python | Programming language |
 | Pandas | Data manipulation |
 | Matplotlib | Data visualization |
