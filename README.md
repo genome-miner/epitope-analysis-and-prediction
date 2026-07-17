@@ -38,7 +38,7 @@
 - [Data Visualization](#-data-visualization)
 - [Key Findings](#-key-findings)
 - [Future Work](#-future-work)
-- [Reference](#-reference)
+- [References](#-references)
 - [License](#-license)
 - [Author & Contact](#-author--contact)
 
