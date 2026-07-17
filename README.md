@@ -134,7 +134,7 @@ epitope-analysis-and-prediction/
 └── LICENSE
 ```
 
-# ⚙️ Installation
+# Installation
 
 Clone the repository:
 
