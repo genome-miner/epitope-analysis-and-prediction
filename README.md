@@ -36,7 +36,6 @@
 - <a href="#data-cleaning--validation">Data Cleaning & Validation</a>
 - <a href="#feature-engineering">Feature Engineering</a>
 - <a href="#statistical-analysis">Statistical Analysis</a>
-- <a href="#data-visualization">Data Visualization</a>
 - <a href="#key-findings">Key Findings</a>
 - <a href="#future-work">Future Work</a>
 - <a href="#references">References</a>
@@ -261,36 +260,6 @@ The analyses included:
 - Pivot table analysis
 
 These analyses provide quantitative insights into peptide characteristics and establish a foundation for future predictive modeling.
-
----
-
-## <a id="data-visualization"></a>📈 Data Visualization
-
-A variety of publication-quality visualizations were generated to better understand the biological and physicochemical characteristics of the datasets.
-
-## Representative Figures
-
-### Peptide Length Distribution
-
-<p align="center">
-<img src="Figures/Histogram_Peptide_Length.png" width="750">
-</p>
-
----
-
-### Amino Acid Composition
-
-<p align="center">
-<img src="Figures/Amino_Acid_Composition.png" width="750">
-</p>
-
----
-
-### Hydrophobicity Distribution
-
-<p align="center">
-<img src="Figures/Hydrophobicity_Distribution.png" width="750">
-</p>
 
 ---
 
