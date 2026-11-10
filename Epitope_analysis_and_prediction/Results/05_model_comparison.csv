@@ -1,0 +1,7 @@
+model,weights,macro_auc,macro_low,macro_high,pooled_auc,pr_auc,mcc,f1
+logistic,none,0.575,0.548,0.602,0.58,0.333,0.094,0.413
+logistic,sqrt,0.577,0.546,0.606,0.58,0.33,0.1,0.415
+forest,none,0.59,0.562,0.618,0.589,0.337,0.096,0.376
+forest,sqrt,0.58,0.55,0.606,0.574,0.329,0.107,0.418
+boosting,none,0.592,0.563,0.62,0.584,0.332,0.084,0.362
+boosting,sqrt,0.572,0.544,0.598,0.574,0.323,0.092,0.374

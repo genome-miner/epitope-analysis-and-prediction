@@ -1,0 +1,4 @@
+model,macro_auc_tuned,tuned_low,tuned_high,macro_auc_default,tuned_minus_default,diff_low,diff_high,pooled_auc,pr_auc,top10_gain,gain_low,gain_high,p_shuffle,p_circular,sars_5_15_auc,sars_5_15_low,sars_5_15_high,sars_all_auc,sars_all_low,sars_all_high
+logistic,0.5725,0.5425,0.6026,0.5716,0.0009,0.0,0.0021,0.575,0.3261,0.0852,0.0474,0.123,0.001,0.001,0.6571,0.5642,0.746,0.6158,0.5525,0.6726
+boosting,0.5924,0.5644,0.6192,0.5868,0.0056,-0.0033,0.015,0.5765,0.332,0.1041,0.064,0.1458,0.001,0.001,0.6289,0.5368,0.7218,0.6007,0.543,0.6584
+svm_rbf,0.5852,0.5563,0.6142,0.5803,0.0049,-0.0042,0.0165,0.5837,0.3353,0.1017,0.0599,0.1409,0.001,0.001,0.6484,0.5604,0.7328,0.6111,0.5558,0.6631

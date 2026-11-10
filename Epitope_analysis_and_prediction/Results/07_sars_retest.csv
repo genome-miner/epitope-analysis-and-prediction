@@ -1,0 +1,77 @@
+features,model,training,subset,rows,positives,auc,low,high
+3 features,logistic,full (contaminated),5-15 aa,265,41,0.6563,0.5642,0.7394
+3 features,logistic,full (contaminated),5-14 aa,55,37,0.6216,0.469,0.7862
+3 features,logistic,full (contaminated),17 aa,133,22,0.6654,0.516,0.8039
+3 features,logistic,full (contaminated),all,514,134,0.6159,0.5642,0.6745
+3 features,logistic,no P59594,5-15 aa,265,41,0.657,0.5547,0.7544
+3 features,logistic,no P59594,5-14 aa,55,37,0.6216,0.4628,0.7793
+3 features,logistic,no P59594,17 aa,133,22,0.6654,0.5068,0.8143
+3 features,logistic,no P59594,all,514,134,0.6158,0.5536,0.6724
+3 features,logistic,"no P59594, no exact matches",5-15 aa,265,41,0.657,0.5717,0.7375
+3 features,logistic,"no P59594, no exact matches",5-14 aa,55,37,0.6216,0.4624,0.761
+3 features,logistic,"no P59594, no exact matches",17 aa,133,22,0.6654,0.5121,0.8282
+3 features,logistic,"no P59594, no exact matches",all,514,134,0.6158,0.5596,0.6736
+3 features,boosting,full (contaminated),5-15 aa,265,41,0.6279,0.531,0.7108
+3 features,boosting,full (contaminated),5-14 aa,55,37,0.6179,0.4586,0.7651
+3 features,boosting,full (contaminated),17 aa,133,22,0.6679,0.5347,0.8027
+3 features,boosting,full (contaminated),all,514,134,0.6027,0.5481,0.6534
+3 features,boosting,no P59594,5-15 aa,265,41,0.6339,0.5423,0.7221
+3 features,boosting,no P59594,5-14 aa,55,37,0.6186,0.4548,0.7883
+3 features,boosting,no P59594,17 aa,133,22,0.665,0.537,0.7977
+3 features,boosting,no P59594,all,514,134,0.6079,0.5531,0.6663
+3 features,boosting,"no P59594, no exact matches",5-15 aa,265,41,0.6339,0.5449,0.7177
+3 features,boosting,"no P59594, no exact matches",5-14 aa,55,37,0.6186,0.4492,0.7748
+3 features,boosting,"no P59594, no exact matches",17 aa,133,22,0.665,0.5298,0.7933
+3 features,boosting,"no P59594, no exact matches",all,514,134,0.6079,0.5489,0.6642
+3 features,svm_rbf,full (contaminated),5-15 aa,265,41,0.6544,0.5668,0.7297
+3 features,svm_rbf,full (contaminated),5-14 aa,55,37,0.6276,0.437,0.7921
+3 features,svm_rbf,full (contaminated),17 aa,133,22,0.6994,0.5317,0.8351
+3 features,svm_rbf,full (contaminated),all,514,134,0.6078,0.5555,0.6622
+3 features,svm_rbf,no P59594,5-15 aa,265,41,0.6535,0.5838,0.7275
+3 features,svm_rbf,no P59594,5-14 aa,55,37,0.6291,0.4607,0.797
+3 features,svm_rbf,no P59594,17 aa,133,22,0.7007,0.5406,0.8405
+3 features,svm_rbf,no P59594,all,514,134,0.6078,0.5527,0.6593
+3 features,svm_rbf,"no P59594, no exact matches",5-15 aa,265,41,0.6535,0.5708,0.7325
+3 features,svm_rbf,"no P59594, no exact matches",5-14 aa,55,37,0.6291,0.4624,0.7906
+3 features,svm_rbf,"no P59594, no exact matches",17 aa,133,22,0.7007,0.5473,0.8458
+3 features,svm_rbf,"no P59594, no exact matches",all,514,134,0.6078,0.5546,0.6654
+4 features,logistic,full (contaminated),5-15 aa,265,41,0.6655,0.5815,0.7539
+4 features,logistic,full (contaminated),5-14 aa,55,37,0.6261,0.4551,0.7809
+4 features,logistic,full (contaminated),17 aa,133,22,0.6491,0.4962,0.7991
+4 features,logistic,full (contaminated),all,514,134,0.614,0.5539,0.676
+4 features,logistic,no P59594,5-15 aa,265,41,0.6655,0.5764,0.7465
+4 features,logistic,no P59594,5-14 aa,55,37,0.6261,0.466,0.7766
+4 features,logistic,no P59594,17 aa,133,22,0.6495,0.492,0.7861
+4 features,logistic,no P59594,all,514,134,0.6138,0.5534,0.6722
+4 features,logistic,"no P59594, no exact matches",5-15 aa,265,41,0.6655,0.5706,0.7455
+4 features,logistic,"no P59594, no exact matches",5-14 aa,55,37,0.6261,0.4574,0.7691
+4 features,logistic,"no P59594, no exact matches",17 aa,133,22,0.6495,0.4965,0.7969
+4 features,logistic,"no P59594, no exact matches",all,514,134,0.6138,0.5576,0.6753
+4 features,boosting,full (contaminated),5-15 aa,265,41,0.6335,0.5332,0.7206
+4 features,boosting,full (contaminated),5-14 aa,55,37,0.5721,0.405,0.7211
+4 features,boosting,full (contaminated),17 aa,133,22,0.6333,0.4878,0.772
+4 features,boosting,full (contaminated),all,514,134,0.5988,0.5411,0.6571
+4 features,boosting,no P59594,5-15 aa,265,41,0.6145,0.5256,0.7035
+4 features,boosting,no P59594,5-14 aa,55,37,0.5886,0.382,0.7643
+4 features,boosting,no P59594,17 aa,133,22,0.6538,0.5046,0.7896
+4 features,boosting,no P59594,all,514,134,0.6044,0.5449,0.6519
+4 features,boosting,"no P59594, no exact matches",5-15 aa,265,41,0.6145,0.526,0.6973
+4 features,boosting,"no P59594, no exact matches",5-14 aa,55,37,0.5886,0.4222,0.7557
+4 features,boosting,"no P59594, no exact matches",17 aa,133,22,0.6538,0.5023,0.8027
+4 features,boosting,"no P59594, no exact matches",all,514,134,0.6044,0.5454,0.6591
+4 features,svm_rbf,full (contaminated),5-15 aa,265,41,0.6223,0.5433,0.7058
+4 features,svm_rbf,full (contaminated),5-14 aa,55,37,0.5586,0.3879,0.7169
+4 features,svm_rbf,full (contaminated),17 aa,133,22,0.6974,0.5384,0.8332
+4 features,svm_rbf,full (contaminated),all,514,134,0.5896,0.5309,0.6391
+4 features,svm_rbf,no P59594,5-15 aa,265,41,0.6217,0.5336,0.6988
+4 features,svm_rbf,no P59594,5-14 aa,55,37,0.5661,0.3685,0.7246
+4 features,svm_rbf,no P59594,17 aa,133,22,0.6957,0.5567,0.8402
+4 features,svm_rbf,no P59594,all,514,134,0.5908,0.5315,0.6451
+4 features,svm_rbf,"no P59594, no exact matches",5-15 aa,265,41,0.6217,0.5304,0.7047
+4 features,svm_rbf,"no P59594, no exact matches",5-14 aa,55,37,0.5661,0.3951,0.727
+4 features,svm_rbf,"no P59594, no exact matches",17 aa,133,22,0.6957,0.5591,0.84
+4 features,svm_rbf,"no P59594, no exact matches",all,514,134,0.5908,0.5339,0.6432
+-,emini_log alone,none,5-15 aa,265,41,0.6382,0.5473,0.725
+-,emini_log alone,none,5-14 aa,55,37,0.5976,0.4321,0.7478
+-,emini_log alone,none,17 aa,133,22,0.7254,0.5868,0.8382
+-,emini_log alone,none,all,514,134,0.6191,0.5584,0.6733
