@@ -1,4 +1,3 @@
-
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=rect&color=0:1A2980,100:26D0CE&height=15&section=header&width=2000"/>
 </p>
@@ -46,6 +45,7 @@
   <li><a href="#limitations">Limitations</a></li>
   <li><a href="#conclusion">Conclusion</a></li>
   <li><a href="#future-work">Future Work</a></li>
+  <li><a href="#references">References</a></li>
   <li><a href="#license">License</a></li>
   <li><a href="#author-contact">Author and Contact</a></li>
 </ul>
@@ -737,6 +737,16 @@ Nested cross-validation was used for model selection and performance assessment.
   <li><b>Feature Engineering:</b> Explore additional feature representations and model architectures.</li>
   <li><b>Experimental Validation:</b> Experimentally evaluate prioritized peptide candidates.</li>
 </ul>
+
+---
+
+<h2 id="references">📚 References</h2>
+
+- Noumi, T., Inoue, S., Fujita, H., Sadamitsu, K., Sakaguchi, M., Tenma, A., & Nakagami, H. (2021). Epitope Prediction of Antigen Protein Using Attention-based LSTM Network. Journal of Information Processing, 29, 321–327. https://doi.org/10.2197/ipsjjip.29.321
+- Chou, P. Y., & Fasman, G. D. (1978). Empirical Predictions of Protein Conformation. Annual Review of Biochemistry, 47, 251–276. https://doi.org/10.1146/annurev.bi.47.070178.001343
+- Emini, E. A., Hughes, J. V., Perlow, D. S., & Boger, J. (1985). Induction of Hepatitis A Virus-Neutralizing Antibody by a Virus-Specific Synthetic Peptide. Journal of Virology, 55(3), 836–839. https://doi.org/10.1128/JVI.55.3.836-839.1985
+- Kolaskar, A. S., & Tongaonkar, P. C. (1990). A semi-empirical method for prediction of antigenic determinants on protein antigens. FEBS Letters, 276(1–2), 172–174. https://doi.org/10.1016/0014-5793(90)80535-Q
+- Parker, J. M. R., Guo, D., & Hodges, R. S. (1986). New hydrophilicity scale derived from high-performance liquid chromatography peptide retention data: correlation of predicted surface residues with antigenicity and X-ray-derived accessible sites. Biochemistry, 25(19), 5425–5432. https://doi.org/10.1021/bi00367a013
 
 ---
 
