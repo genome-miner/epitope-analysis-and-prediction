@@ -742,17 +742,22 @@ Nested cross-validation was used for model selection and performance assessment.
 
 <h2 id="license">📄 License</h2>
 
-<p>Specify the license used for this repository.</p>
+<p>This project is licensed under the <a href="https://github.com/genome-miner/epitope-analysis-and-prediction/blob/main/LICENSE">MIT License</a>.</p>
 
 ---
 
 <h2 id="author-contact">👩‍💻 Author and Contact</h2>
 
-<p><b>Author:</b> Your Name</p>
+**Sana Aziz Sial**  
+Biotechnologist and Bioinformatician
+- 🎓 [University of Veterinary and Animal Sciences](https://www.uvas.edu.pk/)
+- 📧 [Email](sanaazizsial@gmail.com)
+- 🐙 [GitHub](https://github.com/genome-miner)
+- 🔗 [LinkedIn](in/sana-aziz-sial-73b189265)
 
-<p><b>GitHub:</b> <a href="YOUR_GITHUB_PROFILE_URL">GitHub Profile</a></p>
+<p><i>Open to research collaboration, feedback, and opportunities to learn.</i></p>
 
-<p><b>Email:</b> Your Email Address</p>
+---
 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=rect&color=0:1A2980,100:26D0CE&height=15&section=footer&width=2000"/>
