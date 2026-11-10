@@ -184,13 +184,13 @@ Epitope_Project/
 ```bash
 git clone https://github.com/genome-miner/epitope-analysis-and-prediction.git
 
-cd Epitope_Project
+cd epitope-analysis-and-prediction
 ```
 
 <p>Install the required Python packages:</p>
 
 ```bash
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 
 <p>Run the analysis scripts in their intended sequence, beginning with the initial dataset analysis and proceeding through the final five-seed evaluation.</p>
@@ -321,14 +321,14 @@ flowchart TD
 
 <h3>Data Validation Results</h3>
 
-<ul>
-  <li>35,208 peptide lengths matched their coordinate-derived lengths.</li>
-  <li>All 35,208 peptide sequences matched the corresponding parent-protein segments.</li>
-  <li>No invalid coordinates or non-standard amino acid symbols were detected.</li>
-  <li>B_Cells contained 757 unique protein sequences before the final modelling exclusions.</li>
-  <li>SARS contained one protein sequence with overlapping peptide records.</li>
-  <li>COVID contained one unique protein sequence of 1,281 amino acids.</li>
-</ul>
+The initial validation covered 35,208 peptide records after exact-duplicate removal.
+
+- All 35,208 peptide lengths matched their coordinate-derived lengths.
+- All 35,208 peptide sequences matched their corresponding parent-protein segments.
+- No invalid coordinates or non-standard amino acid symbols were detected.
+- B_Cells contained 757 unique protein sequences before the P59594 exclusion.
+- SARS contained one protein sequence with overlapping peptide records.
+- COVID contained one unique protein sequence of 1,281 amino acids.
 
 <h3>Physicochemical Feature Analysis</h3>
 
@@ -399,8 +399,8 @@ Nested cross-validation was used for model selection and performance assessment.
   <li>Macro within-protein AUC for protein-level performance summaries.</li>
   <li>Sensitivity and specificity for classification behaviour.</li>
   <li>Protein-bootstrap intervals for uncertainty estimates.</li>
-  <li>Paired comparisons and Holm correction for multiple testing.</li>
-  <li>Permutation testing to assess performance against chance.</li>
+  <li>Protein-level sign-flip tests to compare model performance against chance and between models.</li>
+  <li>Holm correction for multiple statistical comparisons.</li>
 </ul>
 
 <h3>Earlier Model Evaluation</h3>
