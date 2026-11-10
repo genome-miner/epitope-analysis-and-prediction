@@ -2,7 +2,7 @@
   <img src="https://capsule-render.vercel.app/api?type=rect&color=0:1A2980,100:26D0CE&height=15&section=header&width=2000"/>
 </p>
 
-<h1>B-Cell Epitope Prediction and COVID-19 Peptide Prioritization</h1>
+<h1>B-Cell Epitope Classification and Machine-Learning-Based Peptide Prioritization</h1>
 
 <h3>A Python-Based Machine Learning Pipeline for Peptide Classification, Model Evaluation, and Candidate Ranking</h3>
 
